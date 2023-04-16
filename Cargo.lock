@@ -994,6 +994,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "ml-predict-gender"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "mongodb",
+ "serde",
+]
+
+[[package]]
 name = "mongodb"
 version = "2.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
