@@ -6,3 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+anyhow = "1.0"
+csv = "1.2"
+mongodb = { version = "2.1", default-features = false, features = ["sync"] }
+serde = { version = "1.0", features = ["derive"] }
