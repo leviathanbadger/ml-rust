@@ -994,6 +994,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "ml-playground"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+]
+
+[[package]]
 name = "ml-predict-gender"
 version = "0.1.0"
 dependencies = [

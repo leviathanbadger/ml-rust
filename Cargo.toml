@@ -1,6 +1,6 @@
 [workspace]
 members = [
     "ingest-into-db",
+    "ml-playground",
     "ml-predict-gender"
 ]
-default-members = ["ml-predict-gender"]
